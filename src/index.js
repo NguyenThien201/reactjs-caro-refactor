@@ -3,7 +3,8 @@ import ReactDOM from "react-dom";
 
 import "./index.css";
 
-import Board from './components/board';
+import Board from './board';
+
 const Game = () => {
 
   const [history, setHistory] = useState([
